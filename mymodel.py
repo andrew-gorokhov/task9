@@ -35,4 +35,7 @@ model.fit(x_train, y_train, epochs=5, batch_size=64)
 
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=2)
 print(f'\nТочность на тестовом наборе данных: {test_acc}')
-model.save('mnist_cnn_model.h5')
+
+#model.save('mnist_cnn_model')
+model.save('mnist_cnn_model')
+
